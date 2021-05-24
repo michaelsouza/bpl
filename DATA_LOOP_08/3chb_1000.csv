@@ -1,0 +1,2 @@
+pdb,nnodes,nedges,num,idist,nsols,tsecs,min_eij,avg_eij,max_eij,min_rmsd,avg_rmsd,max_rmsd
+"3chbD_51 (53,55)",24,123,1000,"[6.29, 7.40]",466,26.797875,0.00016,0.004999727038626609,0.009961,0.0212,5.427372660944206,7.193

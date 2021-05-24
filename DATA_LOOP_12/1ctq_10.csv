@@ -1,0 +1,2 @@
+pdb,nnodes,nedges,num,idist,nsols,tsecs,min_eij,avg_eij,max_eij,min_rmsd,avg_rmsd,max_rmsd
+"1ctqA_26 (29,32)",36,264,10,"[9.24, 9.71]",8,0.46093,0.002702,0.005285999999999999,0.008057,5.389,7.92225,10.9

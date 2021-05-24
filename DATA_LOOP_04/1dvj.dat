@@ -1,0 +1,51 @@
+INFO: COLUMN RESSEQ ATOM  INDEX    X        Y         Z
+DATA: ANCHOR     20   CA      2 13.91800  1.65300 20.68900
+DATA: ANCHOR     21   CA      5 12.46300  2.56900 17.30600
+DATA: ANCHOR     22   CA      8 10.81400 -0.53500 15.81200
+
+INFO: COLUMN RES_I RES_J  ATM_I ATM_J IDX_I IDX_J         LIJ             UIJ
+DATA: INTERV    20    21      N    CA     1     5      4.01043704      5.19379098
+
+INFO: COLUMN RES_I RES_J  ATM_I ATM_J IDX_I IDX_J         LIJ             UIJ
+DATA: RIGID0    20    20     CA     C     2     3      1.52992872      1.52992872
+DATA: RIGID0    20    21     CA     N     2     4      2.41850693      2.41850693
+DATA: RIGID0    20    21     CA    CA     2     5      3.79483455      3.79483455
+DATA: RIGID0    20    21      C     N     3     4      1.32917787      1.32917787
+DATA: RIGID0    20    21      C    CA     3     5      2.41459261      2.41459261
+DATA: RIGID0    21    21      N    CA     4     5      1.48214099      1.48214099
+
+INFO: COLUMN RES_I RES_J  ATM_I ATM_J IDX_I IDX_J         LIJ             UIJ
+DATA: RIGID1    21    21     CA     C     5     6      1.53166005      1.53166005
+DATA: RIGID1    21    22     CA     N     5     7      2.44285102      2.44285102
+DATA: RIGID1    21    22     CA    CA     5     8      3.81916920      3.81916920
+DATA: RIGID1    21    22      C     N     6     7      1.33231561      1.33231561
+DATA: RIGID1    21    22      C    CA     6     8      2.43821789      2.43821789
+DATA: RIGID1    22    22      N    CA     7     8      1.46410322      1.46410322
+
+INFO: COLUMN RES_I RES_J  ATM_I ATM_J IDX_I IDX_J         LIJ             UIJ
+DATA: RIGID2    22    22     CA     C     8     9      1.52897035      1.52897035
+DATA: RIGID2    22    23     CA     N     8    10      2.41985008      2.41985008
+DATA: RIGID2    22    23     CA    CA     8    11      3.76645245      3.76645245
+DATA: RIGID2    22    23     CA     C     8    12      4.68118674      4.68118674
+DATA: RIGID2    22    20     CA     N     8     1      7.09626103      7.09626103
+DATA: RIGID2    22    20     CA    CA     8     2      6.18120437      6.18120437
+DATA: RIGID2    22    23      C     N     9    10      1.31776411      1.31776411
+DATA: RIGID2    22    23      C    CA     9    11      2.37428761      2.37428761
+DATA: RIGID2    22    23      C     C     9    12      3.51953303      3.51953303
+DATA: RIGID2    22    20      C     N     9     1      8.27313993      8.27313993
+DATA: RIGID2    22    20      C    CA     9     2      7.49702894      7.49702894
+DATA: RIGID2    23    23      N    CA    10    11      1.45473361      1.45473361
+DATA: RIGID2    23    23      N     C    10    12      2.37549592      2.37549592
+DATA: RIGID2    23    20      N     N    10     1      8.28069459      8.28069459
+DATA: RIGID2    23    20      N    CA    10     2      7.71302145      7.71302145
+DATA: RIGID2    23    23     CA     C    11    12      1.51168814      1.51168814
+DATA: RIGID2    23    20     CA     N    11     1      9.52773494      9.52773494
+DATA: RIGID2    23    20     CA    CA    11     2      9.04822190      9.04822190
+DATA: RIGID2    23    20      C     N    12     1      9.34736577      9.34736577
+DATA: RIGID2    23    20      C    CA    12     2      9.09339023      9.09339023
+DATA: RIGID2    20    20      N    CA     1     2      1.46925745      1.46925745
+
+INFO: COLUMN RES_I RES_J  ATM_I ATM_J IDX_I IDX_J   LIJ     UIJ
+DATA: LINKS     20    20      N     C     1     3 2.53275 2.53275
+DATA: LINKS     21    21      N     C     4     6 2.37676 2.37676
+DATA: LINKS     22    22      N     C     7     9 2.54734 2.54734
