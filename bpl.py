@@ -227,7 +227,7 @@ def bp(p, i, x, D, s, df, fid):
         bp(p, i+1, x, D, s, df, fid)
 
 
-def ibpl(p, lbnd, ubnd, D, df, fid, num=100):    
+def bpl(p, lbnd, ubnd, D, df, fid, num=100):    
     df['nsols'] = 0
 
     x = np.zeros((len(p), 3), dtype=float)
@@ -259,23 +259,18 @@ def ibpl(p, lbnd, ubnd, D, df, fid, num=100):
         s[3] = 1
         bp(p, 4, x, D, s, df, fid)
 
-    # d13=4.496264864865   
-    # solved, xpos, xneg = solveEQ3(x[p[0]], x[p[1]], x[p[2]], d03, d13, d23)
-    # s= [0, 0 ,0 ,0 ,1 ,1, 1, 0, 1, 1, 1, 1]
-    # x[p[3]] = xpos
-    # checkBinarySolution(s, p, x, D)
-
-    # s= [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
-    # x[p[3]] = xneg        
-    # checkBinarySolution(s, p, x, D)    
 
 if __name__ == '__main__':    
-    fdat = 'DATA_LOOP_08/1i0h.dat'
+    # default parameters
     num = 100
+    fdat = 'DATA_LOOP_08/1i0h.dat'
+
+    # read input
     if len(sys.argv) > 1:
         fdat = sys.argv[1]
     if len(sys.argv) > 2:
         num = int(sys.argv[2])
+
     df = read_dat(fdat)
     df['xsol'], _ = read_sol(fdat.replace('.dat', '.sol'))
     
@@ -287,7 +282,7 @@ if __name__ == '__main__':
     fid = open(flog, 'w')
 
     tic = time.time()
-    ibpl(p, lbnd, ubnd, D, df, fid, num)
+    bpl(p, lbnd, ubnd, D, df, fid, num)
     toc = time.time() - tic
 
     nedges = 0
