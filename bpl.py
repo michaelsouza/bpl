@@ -280,6 +280,7 @@ if __name__ == '__main__':
     
     flog = fdat.replace('.dat', '_%d.log' % num)
     fid = open(flog, 'w')
+    print('Writing ' + flog)
 
     tic = time.time()
     bpl(p, lbnd, ubnd, D, df, fid, num)

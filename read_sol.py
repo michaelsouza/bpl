@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 def read_sol(fsol):
+    print('Reading ' + fsol)
     df = {}
     colname = {}
     with open(fsol, 'r') as fid:

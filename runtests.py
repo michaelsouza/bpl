@@ -1,4 +1,4 @@
-# USAGE: python runtests.py | tee call_ibpl.log
+# USAGE: python runtests.py | tee tests.log
 import os
 
 
