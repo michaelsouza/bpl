@@ -1,5 +1,5 @@
 # BPL
-BPL is a Python app to solve Loop Closure Problemas.
+BPL is a Python app to solve Loop Closure Problems.
 
 ## References
 [1] R. Labiak, C. Lavor and M. Souza; Distance Geometry and Protein Loop Modeling. to appear.
